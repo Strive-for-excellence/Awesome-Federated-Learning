@@ -1,14 +1,74 @@
-## A Federated Learning research library - FedML: https://fedml.ai
 
-# Awesome-Federated-Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of federated learning publications, re-organized from Arxiv (mostly).
 
-<strong>Last Update: October, 15th, 2020</strong>.	
+- [Awesome-Federated-Learning](#awesome-federated-learning)
+  * [[Federated learning baseline code](https://github.com/shaoxiongji/federated-learning)](#-federated-learning-baseline-code--https---githubcom-shaoxiongji-federated-learning-)
+  * [Foundations and Trends in Machine Learning](#foundations-and-trends-in-machine-learning)
+  * [Publications in Top-tier ML/CV/NLP/DM Conference (ICML, NeurIPS, ICLR, CVPR, ACL, AAAI, KDD)](#publications-in-top-tier-ml-cv-nlp-dm-conference--icml--neurips--iclr--cvpr--acl--aaai--kdd-)
+    + [ICML](#icml)
+    + [NeurIPS](#neurips)
+  * [Research Areas](#research-areas)
+      - [Statistical Challenges: data distribution heterogeneity and label deficiency (159)](#statistical-challenges--data-distribution-heterogeneity-and-label-deficiency--159-)
+      - [Trustworthiness: security, privacy, fairness, incentive mechanism, etc. (88)](#trustworthiness--security--privacy--fairness--incentive-mechanism--etc--88-)
+      - [System Challenges: communication and computational resource constrained, software and hardware heterogeneity, and FL system (141)](#system-challenges--communication-and-computational-resource-constrained--software-and-hardware-heterogeneity--and-fl-system--141-)
+      - [Models and Applications (103)](#models-and-applications--103-)
+      - [Benchmark, Dataset and Survey (27)](#benchmark--dataset-and-survey--27-)
+- [Statistical Challenges: distribution heterogeneity and label deficiency](#statistical-challenges--distribution-heterogeneity-and-label-deficiency)
+  * [Distributed optimization](#distributed-optimization)
+  * [Non-IID and Model Personalization](#non-iid-and-model-personalization)
+  * [Vertical Federated Learning](#vertical-federated-learning)
+  * [Decentralized FL](#decentralized-fl)
+  * [Hierarchical FL](#hierarchical-fl)
+  * [Neural Architecture Search](#neural-architecture-search)
+  * [Transfer Learning](#transfer-learning)
+  * [Continual Learning](#continual-learning)
+  * [Semi-Supervised Learning](#semi-supervised-learning)
+  * [Domain Adaptation](#domain-adaptation)
+  * [Reinforcement Learning](#reinforcement-learning)
+  * [Bayesian Learning](#bayesian-learning)
+- [Trustworthy AI: adversarial attack, privacy, fairness, incentive mechanism, etc.](#trustworthy-ai--adversarial-attack--privacy--fairness--incentive-mechanism--etc)
+  * [Adversarial Attack and Defense](#adversarial-attack-and-defense)
+  * [Privacy](#privacy)
+  * [Fairness](#fairness)
+  * [Interpretability](#interpretability)
+  * [Incentive Mechanism](#incentive-mechanism)
+- [System Challenges: communication and computational resource constrained, software and hardware heterogeneity, and FL wireless communication system](#system-challenges--communication-and-computational-resource-constrained--software-and-hardware-heterogeneity--and-fl-wireless-communication-system)
+  * [Communication Efficiency](#communication-efficiency)
+  * [Straggler Problem](#straggler-problem)
+  * [Computation Efficiency](#computation-efficiency)
+  * [Wireless Communication and Cloud Computing](#wireless-communication-and-cloud-computing)
+  * [FL System Design](#fl-system-design)
+- [Models and Applications](#models-and-applications)
+  * [Models](#models)
+    + [GCN (Graph Convolutional Network)](#gcn--graph-convolutional-network-)
+    + [Generative Models (GAN, Bayesian Generative Models, etc)](#generative-models--gan--bayesian-generative-models--etc-)
+    + [VAE (Variational Autoencoder)](#vae--variational-autoencoder-)
+    + [MF (Matrix Factorization)](#mf--matrix-factorization-)
+    + [GBDT (Gradient Boosting Decision Trees)](#gbdt--gradient-boosting-decision-trees-)
+    + [Other Model](#other-model)
+  * [Natural language Processing](#natural-language-processing)
+  * [Computer Vision](#computer-vision)
+  * [Health Care:](#health-care-)
+  * [Transportation:](#transportation-)
+  * [Recommendation System](#recommendation-system)
+  * [Speech Recognition](#speech-recognition)
+  * [Finance](#finance)
+  * [Smart City](#smart-city)
+  * [Robotics](#robotics)
+  * [Networking](#networking)
+  * [Blockchain](#blockchain)
+  * [Other](#other)
+- [Benchmark, Dataset and Survey](#benchmark--dataset-and-survey)
+  * [Benchmark and Dataset](#benchmark-and-dataset)
+  * [Survey](#survey)
 
-If your publication is not included here, please email to chaoyang.he@usc.edu
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-# Foundations and Trends in Machine Learning
+
+# Awesome-Federated-Learning 
+
+## [Federated learning baseline code](https://github.com/shaoxiongji/federated-learning)
+## Foundations and Trends in Machine Learning
 We are thrilled to share that [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977) has been accepted to [FnTML](https://www.nowpublishers.com/MAL) (<b>Foundations and Trends in Machine Learning</b>, the chief editor is [Michael Jordan](https://people.eecs.berkeley.edu/~jordan/)).
 
 
