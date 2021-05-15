@@ -1,8 +1,5 @@
-
-
-
 - [Awesome-Federated-Learning](#awesome-federated-learning)
-  * [[Federated learning baseline code](https://github.com/shaoxiongji/federated-learning)](#-federated-learning-baseline-code--https---githubcom-shaoxiongji-federated-learning-)
+  * [Federated learning baseline code](#federated-learning-baseline-code)
   * [Foundations and Trends in Machine Learning](#foundations-and-trends-in-machine-learning)
   * [Publications in Top-tier ML/CV/NLP/DM Conference (ICML, NeurIPS, ICLR, CVPR, ACL, AAAI, KDD)](#publications-in-top-tier-ml-cv-nlp-dm-conference--icml--neurips--iclr--cvpr--acl--aaai--kdd-)
     + [ICML](#icml)
@@ -67,7 +64,8 @@
 
 # Awesome-Federated-Learning 
 
-## [Federated learning baseline code](https://github.com/shaoxiongji/federated-learning)
+## Federated learning baseline code
+[project](https://github.com/shaoxiongji/federated-learning)
 ## Foundations and Trends in Machine Learning
 We are thrilled to share that [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977) has been accepted to [FnTML](https://www.nowpublishers.com/MAL) (<b>Foundations and Trends in Machine Learning</b>, the chief editor is [Michael Jordan](https://people.eecs.berkeley.edu/~jordan/)).
 
