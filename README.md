@@ -47,8 +47,6 @@ We are thrilled to share that [Advances and Open Problems in Federated Learning]
 
 (according to https://neurips.cc/Conferences/2020/AcceptedPapersInitial)
 
-Note: most of the accepted publications are preparing the camera ready revision, thus we are not sure the detail of their proposed methods
-
 
 ## Research Areas
 #### Statistical Challenges: data distribution heterogeneity and label deficiency (159)
